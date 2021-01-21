@@ -1,0 +1,159 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	/*font-family: 'Open Sans', sans-serif;*/
+	/*font-family: 'Courier Prime', monospace;*/
+	/*color: #A5F;*/ /*purple*/
+	/*font-family: 'Lato', sans-serif;*/
+}
+
+.name {
+	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	margin-top: 45px;
+	text-transform: uppercase;
+}
+
+.name a, a:visited {
+	text-decoration: none;
+}
+.name a:hover {
+	color: #A5F;
+	text-decoration: none;
+}
+
+.navi ul {
+	list-style: none;
+	text-align: center;
+	line-height: 65px;
+	font-family: 'Courier Prime', monospace;
+
+}
+
+.navi li {
+	display: inline;
+	padding: 10px;
+
+}
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+.navi a:hover, a:active  {
+	border-bottom: 1px solid #A5F;
+	padding-bottom: 5px;
+}
+
+a:visited {
+	color: #000;
+}
+
+
+.hero {
+	text-align: center;
+	position: relative;
+}
+
+.hero p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #FFF;
+	font-size: 50px;
+}
+
+.banner {
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.project {
+	width: 100vw;
+	margin-top: 5px;
+
+}
+
+.banner h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFF;
+}
+
+.description {
+	width: 830px;
+}
+
+.description ul {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	list-style: none;
+	/*text-align: center;*/
+
+}
+
+.description li {
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.description img {
+	text-align: center;
+}
+
+.description a {
+	font-family: 'Courier Prime', monospace;
+	text-decoration: none;
+}
+
+.description a:hover {
+	color: #A5F;
+}
+
+h2 {
+	font-family: 'Courier Prime', monospace;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #A5F;
+}
+
+h3 {
+	font-family: 'Courier Prime', monospace;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+
+h4 {
+	font-family: 'Courier Prime', monospace;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
